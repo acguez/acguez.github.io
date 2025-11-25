@@ -45,20 +45,26 @@ padding: 0;
 }
 #description
 {
-	margin-left:350px;
-	padding: 10px 25px;
-	background: url('files/bg.png');
-	border: 1px solid gray;
+	color: #fff;
 }
 #header
 {
-	background: #73a0c5 url('files/aguez.jpg') no-repeat;	
-	padding-top: 25px;
-	padding-left: 0;
-	padding-right: 25px;
+	background: #73a0c5;
+	display: flex;
+	align-items: center; 
+	gap: 30px;          
+	height: auto;
+	padding: 30px; 
 	margin: 0 auto;
 	border-bottom: 15px solid #7477a3;
-	height:275px;
+}
+.profile-pic {
+  width: 225px;           
+  height: 225px;         
+  border-radius: 50%; 
+  object-fit: cover;   
+  border: 2px solid #cecece;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 #content
 {
